@@ -1,0 +1,32 @@
+﻿# Credenciais e configuracoes locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Bancos locais
+*.sqlite3
+db.sqlite3
+
+# Arquivos temporarios
+*.log
+*.bak
+*.tmp
+
+# Editor e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
